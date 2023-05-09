@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>global.CustomDebugLogHelper</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Do nothing but add log</description>
+        <name>CustomDebugLogHelper</name>
+        <script><![CDATA[var CustomDebugLogHelper = Class.create();
+CustomDebugLogHelper.prototype = {
+    initialize: function() {
+    },
+	
+	logToSystem: function() {
+		gs.log("ei yooooooo !!!!");
+	},
+
+    type: 'CustomDebugLogHelper'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 08:37:03</sys_created_on>
+        <sys_id>61d0f4c41bb269108195b844cc4bcbab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CustomDebugLogHelper</sys_name>
+        <sys_package display_value="demo CICD github Action" source="22a26c081b3269108195b844cc4bcb91">22a26c081b3269108195b844cc4bcb91</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="demo CICD github Action">22a26c081b3269108195b844cc4bcb91</sys_scope>
+        <sys_update_name>sys_script_include_61d0f4c41bb269108195b844cc4bcbab</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 08:37:03</sys_updated_on>
+    </sys_script_include>
+</record_update>
