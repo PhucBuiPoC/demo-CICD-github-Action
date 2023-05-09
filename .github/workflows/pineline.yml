@@ -44,7 +44,7 @@ jobs:
         id: scan
         with:
           # scantype is always Required
-          scantype: point # point, suite_combo, suite_scoped, suite_update
+          scantype: full # point, suite_combo, suite_scoped, suite_update
           # Required on point
           targetTable: sys_app
           targetSysId: ${{ secrets.SN_APP_SYSID }}
