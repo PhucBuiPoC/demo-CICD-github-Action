@@ -67,7 +67,7 @@ jobs:
           scantype: full # point, suite_combo, suite_scoped, suite_update
           # Required on point
           targetTable: sys_app
-          targetSysId: 22a26c081b3269108195b844cc4bcb91
+          targetSysId: ${{ secrets.SN_APP_SYSID }}
         env:
             nowUsername: ${{ secrets.NOW_USERNAME }}
             nowPassword: ${{ secrets.NOW_PASSWORD }}
